@@ -1,0 +1,19 @@
+{
+  "name": "log-parser",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "generate": "java -jar antlr-4.9.2-complete.jar SimpleLog.g4 -Dlanguage=JavaScript -o src/parser"
+  },
+  "dependencies": {
+    "antlr4": "^4.9.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.36.0"
+  }
+}

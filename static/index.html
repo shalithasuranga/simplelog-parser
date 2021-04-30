@@ -1,0 +1,12 @@
+<script src="logparser.js"></script>
+<textarea id="rawText"></textarea>
+<button onclick="generateTable();">Submit</button>
+<div id="tableWrapper"></div>
+<script>
+    function generateTable() {
+        const textarea = document.getElementById("rawText");
+        const tableWrapper = document.getElementById("tableWrapper");
+        tableWrapper.innerHTML = LogParser.parse(textarea.value);
+    }
+
+</script>

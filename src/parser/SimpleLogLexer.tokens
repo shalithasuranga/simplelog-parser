@@ -1,0 +1,19 @@
+T__0=1
+T__1=2
+T__2=3
+T__3=4
+T__4=5
+INFO=6
+WARNING=7
+ERROR=8
+TEXT=9
+DIGITS=10
+WS=11
+'['=1
+']'=2
+' => '=3
+' :: '=4
+':'=5
+'INFO'=6
+'WARNING'=7
+'ERROR'=8
