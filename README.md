@@ -1,2 +1,2 @@
 # simplelog-parser
-A web application to parse SimpleLog log files from client side.
+A web application to parse `SimpleLog` log files from client side.
